@@ -1,0 +1,20 @@
+print("Now I want to add more person in meals")
+person=['Mike','Sim','Niko']
+person.insert(0,'Candy')
+person.insert(2,'Lan')
+person.append('Jack')
+print(person)
+print("Now I did't want too much people here")
+person.pop(0)
+print("I am sorry")
+person.pop(0)
+print("I am sorry")
+person.pop(0)
+print("I am sorry")
+person.pop(0)
+print("I am sorry")
+print(f"Thank you for your coming {person[0]}")
+print(f"Thank you for your coming {person[1]}")
+del person[0]
+del person[0]
+print(person)
